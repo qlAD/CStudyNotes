@@ -8,6 +8,9 @@ int main()
     printf("Please give y an integer value: ");
     scanf("%d", &y);
 
+    (x % 2 == 0) ? printf("X is even.\n") : printf("X is odd.\n");
+    (y % 2 == 0) ? printf("Y is even.\n") : printf("Y is odd.\n");
+
     printf("x + y = %d\n", x + y);
     printf("x - y = %d\n", x - y);
     printf("x * y = %d\n", x * y);
